@@ -1,4 +1,4 @@
-module github.com/GIT_USER_ID/GIT_REPO_ID/sdk
+module github.com/markcol/SpaceTrader/sdk
 
 go 1.18
 
