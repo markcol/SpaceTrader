@@ -11,10 +11,10 @@ package sdk
 
 import (
 	"context"
+	openapiclient "github.com/markcol/SpaceTrader/sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_sdk_ContractsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_sdk_ContractsApiService(t *testing.T) {
 
 	t.Run("Test ContractsApiService AcceptContract", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var contractId string
 
@@ -38,7 +38,7 @@ func Test_sdk_ContractsApiService(t *testing.T) {
 
 	t.Run("Test ContractsApiService DeliverContract", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var contractId string
 
@@ -52,7 +52,7 @@ func Test_sdk_ContractsApiService(t *testing.T) {
 
 	t.Run("Test ContractsApiService FulfillContract", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var contractId string
 
@@ -66,7 +66,7 @@ func Test_sdk_ContractsApiService(t *testing.T) {
 
 	t.Run("Test ContractsApiService GetContract", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var contractId string
 
@@ -80,7 +80,7 @@ func Test_sdk_ContractsApiService(t *testing.T) {
 
 	t.Run("Test ContractsApiService GetContracts", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.ContractsApi.GetContracts(context.Background()).Execute()
 

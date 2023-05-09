@@ -11,10 +11,10 @@ package sdk
 
 import (
 	"context"
+	openapiclient "github.com/markcol/SpaceTrader/sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_sdk_SystemsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_sdk_SystemsApiService(t *testing.T) {
 
 	t.Run("Test SystemsApiService GetJumpGate", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var systemSymbol string
 		var waypointSymbol string
@@ -39,7 +39,7 @@ func Test_sdk_SystemsApiService(t *testing.T) {
 
 	t.Run("Test SystemsApiService GetMarket", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var systemSymbol string
 		var waypointSymbol string
@@ -54,7 +54,7 @@ func Test_sdk_SystemsApiService(t *testing.T) {
 
 	t.Run("Test SystemsApiService GetShipyard", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var systemSymbol string
 		var waypointSymbol string
@@ -69,7 +69,7 @@ func Test_sdk_SystemsApiService(t *testing.T) {
 
 	t.Run("Test SystemsApiService GetSystem", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var systemSymbol string
 
@@ -83,7 +83,7 @@ func Test_sdk_SystemsApiService(t *testing.T) {
 
 	t.Run("Test SystemsApiService GetSystemWaypoints", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var systemSymbol string
 
@@ -97,7 +97,7 @@ func Test_sdk_SystemsApiService(t *testing.T) {
 
 	t.Run("Test SystemsApiService GetSystems", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.SystemsApi.GetSystems(context.Background()).Execute()
 
@@ -109,7 +109,7 @@ func Test_sdk_SystemsApiService(t *testing.T) {
 
 	t.Run("Test SystemsApiService GetWaypoint", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		var systemSymbol string
 		var waypointSymbol string

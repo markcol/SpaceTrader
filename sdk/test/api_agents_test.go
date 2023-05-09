@@ -11,10 +11,10 @@ package sdk
 
 import (
 	"context"
+	openapiclient "github.com/markcol/SpaceTrader/sdk"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"
-	openapiclient "github.com/GIT_USER_ID/GIT_REPO_ID"
 )
 
 func Test_sdk_AgentsApiService(t *testing.T) {
@@ -24,7 +24,7 @@ func Test_sdk_AgentsApiService(t *testing.T) {
 
 	t.Run("Test AgentsApiService GetMyAgent", func(t *testing.T) {
 
-		t.Skip("skip test")  // remove to run test
+		t.Skip("skip test") // remove to run test
 
 		resp, httpRes, err := apiClient.AgentsApi.GetMyAgent(context.Background()).Execute()
 
